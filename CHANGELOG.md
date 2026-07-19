@@ -1,6 +1,27 @@
 # Changelog
 
 
+## v1.7.1
+
+[compare changes](https://github.com/kamasylvia/yiyin/compare/v1.7.0...v1.7.1)
+
+### 🩹 Fixes
+
+- **ci:** 移除 yarn cache 配置，项目无 yarn.lock ([f7352c1](https://github.com/kamasylvia/yiyin/commit/f7352c1))
+
+### 🏡 Chore
+
+- Auto-release 改为仅本地改版本+changelog，发版交由 CI ([ec4d207](https://github.com/kamasylvia/yiyin/commit/ec4d207))
+
+### 🤖 CI
+
+- 新增 release 分支自动构建 workflow，release.js 支持 fork ([1efb4fc](https://github.com/kamasylvia/yiyin/commit/1efb4fc))
+- Auto-release 打 tag+push，CI 改为监听 tag 触发 ([5435061](https://github.com/kamasylvia/yiyin/commit/5435061))
+
+### ❤️ Contributors
+
+- Laniakea Kamasylvia <kamasylvia@zohomail.com>
+
 ## v1.6.0
 
 [compare changes](https://github.com/ggchivalrous/yiyin/compare/v1.4.4...v1.6.0)
